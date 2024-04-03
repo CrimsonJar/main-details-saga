@@ -1,0 +1,11 @@
+@baseUrl = http://localhost:7070
+
+###
+# Получение списка всех услуг
+GET {{baseUrl}}/api/services
+
+###
+# Получение конкретной услуги по ID
+GET {{baseUrl}}/api/services/1
+
+
